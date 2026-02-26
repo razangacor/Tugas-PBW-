@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+    background: linear-gradient(to right, #ab1010 , #4a0000);
+}
+header {
+    background-color: #630000;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 5px;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="550" height="150"><text x="0" y="100" font-family="Arial, sans-serif" font-size="100" font-weight="900" fill="rgba(255, 255, 255, 0.2)">SAWITLOVERS.COM</text></svg>');
+}
+header a :hover{
+    opacity: 80%;
+}
+nav{
+    background-color: #630000;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+nav a:hover {
+    color: gold;
+}
+
+.nav2 {
+    color: white;
+    background-color: #4a0000;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: 17px;
+}
+.nav2 a{
+    text-decoration: none;
+    color: gold;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(to right, #ab1010 , #4a0000);
+}
+.content {
+    flex: 1;
+    height: 250px;
+    padding: 20px;
+    background-color: lemonchiffon;
+    border-radius: 10px;
+    background-image: url(img/img1.jpg);
+}
+.sidebar{
+    flex: 1;
+    padding: 20px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to bottom, #00000a, #000033);
+    color: white;
+    margin-top: auto;
+    
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0D1FB8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+.btn:hover{
+    background-color: #00004A;
+    transform: scale(1.1);
+}
