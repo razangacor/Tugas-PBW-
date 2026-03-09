@@ -51,14 +51,13 @@
         function hitung(){
             let nilai = document.getElementById("nilai").value;
             let grade = "";
-            if(nilai < 49){
+            if(nilai <= 49){
                 grade = "E";
-                document.getElementById("hasil").innerHTML = "Grade: " + grade;
-            }else if(nilai < 59){
+            }else if(nilai <= 59){
                 grade = "D";
-            }else if(nilai < 69){
+            }else if(nilai <= 69){
                 grade = "C";
-            }else if(nilai < 79){
+            }else if(nilai <= 79){
                 grade = "B";
             }else if(nilai <= 100){
                 grade = "A";
